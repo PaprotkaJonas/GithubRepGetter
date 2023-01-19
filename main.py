@@ -20,6 +20,8 @@ for repo in data:
     formatted_data["repositories"].append(repository)
 
 json_data = json.dumps(formatted_data, indent=4)
+
 with open(f"{username}-gitdata.json", "w") as f:
     f.write(json_data)
+
 print(json_data)
