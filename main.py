@@ -3,7 +3,7 @@ import json
 
 #########################
 # Replace with your GitHub username
-username = "KingfernJohn"
+username = "PaprotkaJonas"
 #########################
 
 response = requests.get(f"https://api.github.com/users/{username}/repos")
